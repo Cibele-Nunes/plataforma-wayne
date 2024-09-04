@@ -5,12 +5,12 @@
 .SFC-GRAPHIC-IDENTITY-4-rgba { color: rgba(242, 242, 242, 1); }
 .SFC-GRAPHIC-IDENTITY-5-rgba { color: rgba(12, 12, 12, 1); }
 
-        .cabecalho{
-            background-color: rgba(12, 12, 12, 1);
-        }
-        .conteudo{
-            background-color: rgba(242, 242, 242, 1);
-        }
-        .rodape{
-            background-color: rgba(98, 101, 114, 1);
-        }
+.cabecalho{
+    background-color: rgba(12, 12, 12, 1);
+}
+.conteudo{
+    background-color: rgba(242, 242, 242, 1);
+}
+.rodape{
+    background-color: rgba(98, 101, 114, 1);
+}
