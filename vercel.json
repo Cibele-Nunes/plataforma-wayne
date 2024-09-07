@@ -19,6 +19,12 @@
       "src": "/usuarios",
       "dest": "/api/templates/usuarios.html"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)", 
+      "destination": "/"
+    }
   ]
 }
 
