@@ -9,21 +9,21 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/api/templates/homepage.html"
+      "dest": "/api/templates/homepage"
     },
     {
       "src": "/login",
-      "dest": "/api/templates/login.html"
+      "dest": "/api/templates/login"
     },
     {
       "src": "/usuarios",
-      "dest": "/api/templates/usuarios.html"
+      "dest": "/api/templates/usuarios"
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)", 
-      "destination": "/"
+      "destination": "/api/app"
     }
   ]
 }
