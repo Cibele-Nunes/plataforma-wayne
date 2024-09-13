@@ -11,6 +11,8 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/estilo.css')}}">
 </head>
 <body>
+    {children}
+    <Insights />
     <nav class="navbar sticky-top navbar-light bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -50,3 +52,5 @@ export default function RootLayout({ children }) {
     
 </body>
 </html>
+    )
+}
