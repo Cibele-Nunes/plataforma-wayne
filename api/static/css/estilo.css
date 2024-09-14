@@ -1,15 +1,28 @@
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(98, 101, 114, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler{
+    color: rgba(0, 0, 0, .55);
+    border: 2px solid rgba(98, 101, 114, 1);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(98, 101, 114, 1);
+}
+.navbar-nav .nav-link{
+    font-size: 25px;
+}
 .conteudo{
     background-color: rgba(242, 242, 242, 1);
     height: 50px;
 }
 .rodape{
-    background-color: rgba(98, 101, 114, 1);
+    background-color: rgba(0, 0, 0, .55);
     height: 50px;
 }
 
 /* Color Theme Swatches in RGBA */
 .SFC-GRAPHIC-IDENTITY-1-rgba { color: rgba(98, 101, 114, 1); }
-.SFC-GRAPHIC-IDENTITY-2-rgba { color: rgba(129, 139, 140, 1); }
+.SFC-GRAPHIC-IDENTITY-2-rgba { color: rgb(129, 139, 140); }
 .SFC-GRAPHIC-IDENTITY-3-rgba { color: rgba(216, 214, 210, 1); }
 .SFC-GRAPHIC-IDENTITY-4-rgba { color: rgba(242, 242, 242, 1); }
 .SFC-GRAPHIC-IDENTITY-5-rgba { color: rgba(12, 12, 12, 1); }
