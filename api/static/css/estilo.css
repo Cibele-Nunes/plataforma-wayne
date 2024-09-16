@@ -10,9 +10,12 @@
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif ;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    appearance: rgb(129, 139, 140);
+.navbar-nav .nav-link:hover:focus{
+    color: rgb(129, 139, 140);
+  
+    
 }
+  
 
 .conteudo{
     background-color: rgba(242, 242, 242, 1);
