@@ -74,14 +74,15 @@ body {
     font-size: 14px;
     text-decoration: underline;
     display: inline-block;
-    margin-bottom: 54px; }
+    margin-bottom: 20px; }
     @media (max-width: 575px) {
       .login-wrapper a.forgot-password-link {
         margin-bottom: 16px; } }
   .login-wrapper-footer-text {
-    font-size: 16px;
+    font-size: 15px;
     color: #000;
     margin-bottom: 0; }
+
 
 .login-title {
   font-size: 30px;
@@ -96,5 +97,18 @@ body {
      object-fit: cover;
   -o-object-position: left;
      object-position: left; }
+
+    .login-wrapper .login-colaboradores{
+      color: #080808;
+      font-size: 15px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    .login-wrapper .login-colaboradores a.alert-link {
+      color: #080808;
+      font-size: 15px;
+      box-sizing: border-box;
+    }
+  
 
 /*# sourceMappingURL=login.css.map */
