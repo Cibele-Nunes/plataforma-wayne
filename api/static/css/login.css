@@ -1,11 +1,12 @@
 body {
   font-family: "Karla", sans-serif;
-  background-color: #fff;
+  background-color: #f2f2f2;
   min-height: 100vh; }
-
+  
 .brand-wrapper {
-  padding-top: 7px;
-  padding-bottom: 8px; }
+  padding-top: 0;
+  padding-bottom: 8px;
+  margin-top: 2px; }
   .brand-wrapper .logo {
     height: 25px; }
 
@@ -15,8 +16,8 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  padding: 68px 100px;
-  background-color: #fff; }
+  padding: 48px 100px;
+  background-color: #d8d6d2; }
   @media (max-width: 991px) {
     .login-section-wrapper {
       padding-left: 50px;
@@ -35,42 +36,46 @@ body {
   @media (max-width: 575px) {
     .login-wrapper {
       width: 100%; } }
+.my-auto{
+  margin-top: 100px !important;
+}
   .login-wrapper label {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
-    color: #b0adad; }
+    color: #969494; }
   .login-wrapper .form-control {
     border: none;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid #f2f2f2;
     border-radius: 0;
     padding: 9px 5px;
     min-height: 40px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal; }
     .login-wrapper .form-control::-webkit-input-placeholder {
-      color: #b0adad; }
+      color: #969494; }
     .login-wrapper .form-control::-moz-placeholder {
-      color: #b0adad; }
+      color: #969494; }
     .login-wrapper .form-control:-ms-input-placeholder {
-      color: #b0adad; }
+      color: #969494; }
     .login-wrapper .form-control::-ms-input-placeholder {
-      color: #b0adad; }
+      color: #969494; }
     .login-wrapper .form-control::placeholder {
-      color: #b0adad; }
+      color: #969494; }
+    
   .login-wrapper .login-btn {
     padding: 13px 20px;
-    background-color: #fdbb28;
+    background-color: #818b8c;
     border-radius: 0;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 14px; }
+    margin-bottom: 30px; }
     .login-wrapper .login-btn:hover {
-      border: 1px solid #fdbb28;
+      border: 1px solid #818b8c;
       background-color: #fff;
-      color: #fdbb28; }
+      color: #818b8c; }
   .login-wrapper a.forgot-password-link {
-    color: #080808;
+    color: #626572;
     font-size: 14px;
     text-decoration: underline;
     display: inline-block;
@@ -80,13 +85,13 @@ body {
         margin-bottom: 16px; } }
   .login-wrapper-footer-text {
     font-size: 15px;
-    color: #000;
+    color: #626572;
     margin-bottom: 0; }
 
 
 .login-title {
   font-size: 30px;
-  color: #000;
+  color: #0c0c0c;
   font-weight: bold;
   margin-bottom: 25px; }
 
@@ -99,13 +104,13 @@ body {
      object-position: left; }
 
     .login-wrapper .login-colaboradores{
-      color: #080808;
+      color: #626572;
       font-size: 15px;
       box-sizing: border-box;
       margin-bottom: 20px;
     }
     .login-wrapper .login-colaboradores a.alert-link {
-      color: #080808;
+      color: #626572;
       font-size: 15px;
       box-sizing: border-box;
     }
