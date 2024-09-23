@@ -5,9 +5,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def industriaswayne():
-    return render_template("homepage.html")
+    return render_template("index.html")
 #industriaswayne.com/
-@app.route("/login")
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    return render_template('register.html')
+
+@app.route("/login", methods=['GET', 'POST'])
 def login():
     return render_template("login.html")
 
