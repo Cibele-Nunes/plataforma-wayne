@@ -59,12 +59,11 @@ input{
     padding-left: 6px;
     height: 35px;
     font-size: 14px;
-    border: none;
-    border-bottom: 1px solid #818b8c;
+    border: 2px solid #818b8c;
 }
 input[type=text]:focus{
     outline: none;
-    border-bottom: 1px solid #e9aa36;
+    border: 1px solid #e9aa36;
 
 }
 input:focus ~ span, input:valid ~ span{
